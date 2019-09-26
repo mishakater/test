@@ -46,4 +46,24 @@ let isChecked = true,
     isClosed = true,
     isNice = false;
 
-console.log(isChecked || isClosed || isNice);
+// console.log(isChecked || isClosed || isNice);
+
+let num = 50;
+
+// if (num < 49){
+//     console.log("Меньше 49");
+
+// }else if(num > 51){
+//     console.log("Больше 51");
+// }else{
+//     console.log("Число равно 50");
+// }
+
+switch (num){
+    case num > 100:
+        console.log("Mnogo");
+        break;
+    case 50:
+        console.log("Ravno 50");
+        break;
+}
