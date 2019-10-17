@@ -1,0 +1,21 @@
+.box {
+    width: 100px;
+	height: 100px;
+	background: red;
+}
+
+button {
+    width: 200px;
+	height: 100px;
+	background: black;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+}
+
+.black{
+	width: 200px;
+	height: 100px;
+	background: black;
+	color: white;
+}
